@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread('../images/photo.jpg', cv2.IMREAD_COLOR)
+image = cv2.imread('../opencv/images/color.jpg', cv2.IMREAD_COLOR)
 if image is None:
     raise Exception('영상 파일 읽기 오류')
 if image.ndim != 3:
